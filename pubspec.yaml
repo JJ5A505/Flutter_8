@@ -1,0 +1,25 @@
+name: flutter_application_4
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  concentric_transition: ^1.0.3
+  cupertino_icons: ^1.0.0
+  flutter:
+    sdk: flutter
+  lottie: ^2.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/.
+    - assets/animation/.
